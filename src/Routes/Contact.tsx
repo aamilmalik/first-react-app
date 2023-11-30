@@ -17,7 +17,7 @@ class Contact extends React.Component<ContactProps, ContactState> {
         return ( 
            <>
               <h2>
-                Contact page 345
+                Ct pagee
               </h2>
            </>
          );
