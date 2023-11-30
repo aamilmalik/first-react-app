@@ -3,13 +3,30 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FirstCmp from './components/FirstCmp';
+import AdmissionForm from './components/AdmissionForm';
+import TestClassCmp from './components/TestClassCmp';
+import EnterName from './components/EnterName';
+import StatePractice from './components/StatePractice';
+import EnquiryForm from './components/EnquiryForm';
+import FormValidationClsComp from './FormValidationClsComp';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import FunctionalCompState from './components/FunctionalCompState';
+import FunctionalIncrementComp from './components/FunctionalIncrementComp';
+import FormValidationFunComp from './FormValidationFunComp';
+import Students from './Students';
+import WeatherApiDemo from './WeatherApiDemo';
+import GetCountriesDemo from './GetCountrielDemo';
+
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+ <App />
+   
   </React.StrictMode>
 );
 
